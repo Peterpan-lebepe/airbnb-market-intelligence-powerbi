@@ -1,18 +1,23 @@
-Airbnb Market Performance and Listing Insights Dashboard
+🏡 AIRBNB MARKET PERFORMANCE & LISTING INSIGHTS DASHBOARD
 
-1. Project Overview
+📊 AnalystLab Africa | Experience Lab Internship Programme | Week 1
 
-This project forms part of the AnalystLab Africa Experience Lab Internship Programme – Week 1.
 
-The objective is to develop an interactive Power BI dashboard that helps stakeholders understand Airbnb listing distribution, advertised pricing, property characteristics, host indicators and historical review activity across 10 selected cities.
 
-The project uses data analysis and visualisation techniques to explore Airbnb market performance and identify meaningful business insights.
 
-2. Project Objectives
 
-The key objectives are to:
 
-Analyse Airbnb listing distribution across the selected cities.
+📌 PROJECT OVERVIEW
+
+This project forms part of the AnalystLab Africa Experience Lab Internship Programme – Week 1, Track A: Data Analytics.
+
+The objective is to develop an interactive Power BI dashboard that provides insights into Airbnb listing distribution, advertised pricing, property characteristics, host indicators and historical review activity across 10 selected cities.
+
+The project applies data preparation, SQL analysis, data modelling and visualisation techniques to explore Airbnb market performance and identify meaningful business insights.
+
+🎯 PROJECT OBJECTIVES
+
+Analyse Airbnb listing distribution across selected cities.
 
 Investigate room types and property types.
 
@@ -24,31 +29,29 @@ Analyse historical review activity and available listing scores.
 
 Develop an interactive four-page Power BI dashboard.
 
-Present findings and actionable business recommendations.
+Present meaningful findings and actionable business recommendations.
 
-3. Tools and Technologies
+🛠️ TOOLS & TECHNOLOGIES
 
-The project uses the following tools:
+Technology
 
-Tool
-
-Purpose
+Application
 
 SQL / DuckDB
 
-Data loading, querying and preparation
+Data loading, querying and analysis
 
 DBeaver
 
-Database management and SQL execution
+Database management
 
 Power BI Desktop
 
-Data modelling, DAX calculations and dashboard development
+Dashboard development and visualisation
 
 Power Query
 
-Data preparation within Power BI
+Data preparation
 
 DAX
 
@@ -58,11 +61,9 @@ GitHub
 
 Project documentation and version control
 
-Note: Microsoft Excel is not permitted for this assignment. The large Reviews dataset must be processed using SQL or Python.
+📂 DATASETS
 
-4. Dataset Overview
-
-The assignment provides four supporting files:
+The project uses four supplied files:
 
 Listings.csv
 
@@ -72,37 +73,31 @@ Listings data dictionary
 
 Reviews data dictionary
 
-The Listings dataset contains information about Airbnb listings, including location, advertised prices, property characteristics and host indicators.
-
-The Reviews dataset contains historical review activity linked to listings.
-
 The original datasets will be preserved, with separate working and transformed datasets used for analysis.
 
-5. Data Preparation and Quality Checks
+🔍 DATA PREPARATION & QUALITY ASSESSMENT
 
 The data preparation process includes:
 
-Inspecting available columns and data types.
+Inspecting columns and data types.
 
-Checking missing values.
+Assessing missing values.
 
-Validating the uniqueness of listing_id in the Listings dataset.
+Validating the uniqueness of listing_id.
 
-Investigating repeated review_id values in the Reviews dataset.
+Investigating repeated review_id values.
 
-Checking the relationship between listings and reviews.
+Validating the relationship between listings and reviews.
 
-Identifying unusual or invalid advertised prices.
+Investigating unusual or invalid advertised prices.
 
 Documenting data transformations and analytical decisions.
 
-Data-quality issues will be investigated and documented rather than automatically removed.
+📊 POWER BI DASHBOARD
 
-6. Dashboard Structure
+The dashboard will contain four analytical pages:
 
-The Power BI dashboard will contain four pages.
-
-Page 1: Airbnb Market Overview
+01 | AIRBNB MARKET OVERVIEW
 
 Total listings.
 
@@ -114,7 +109,7 @@ Room type distribution.
 
 Property type distribution.
 
-Page 2: Pricing and Property Analysis
+02 | PRICING & PROPERTY ANALYSIS
 
 Price distribution by city.
 
@@ -122,9 +117,9 @@ Price comparisons within local currencies.
 
 Price variation by room type.
 
-Price analysis by accommodation capacity and other available property characteristics.
+Accommodation capacity and property characteristics.
 
-Page 3: Host Performance Analysis
+03 | HOST PERFORMANCE ANALYSIS
 
 Listings per host.
 
@@ -134,7 +129,7 @@ Host acceptance indicators.
 
 Available host characteristics and comparisons.
 
-Page 4: Review Activity and Listing Scores
+04 | REVIEW ACTIVITY & LISTING SCORES
 
 Total review records.
 
@@ -146,88 +141,89 @@ Listing-level review score comparisons.
 
 Review activity compared with available aggregate listing ratings.
 
-Relevant filters will be included to allow users to explore the data.
-
-7. Business Insights and Recommendations
+💡 BUSINESS INSIGHTS & RECOMMENDATIONS
 
 The completed analysis will include:
 
-At least five meaningful findings supported by the dataset.
+At least 5 meaningful business findings supported by the data.
 
-At least three actionable business recommendations.
+At least 3 actionable recommendations.
 
 Evidence supporting each recommendation.
 
 Proposed actions and ways to evaluate their usefulness.
 
-Findings and recommendations will be added after the analysis and dashboard have been validated.
+📦 PROJECT DELIVERABLES
 
-8. Project Deliverables
+Deliverable
 
-The final project will include:
+Status
 
-Power BI dashboard (.pbix).
+Power BI dashboard (.pbix)
 
-SQL queries or Python data preparation scripts.
+In progress
 
-Data-quality assessment.
+SQL queries / Python scripts
 
-KPI definition document.
+In progress
 
-Dashboard screenshots.
+Data-quality assessment
 
-Validation evidence.
+Pending
 
-Executive summary of findings and recommendations.
+KPI definitions
 
-Project documentation.
+Pending
 
-9. Data Limitations
+Dashboard screenshots
 
-The analysis will consider the following limitations:
+Pending
 
-Advertised prices must be analysed within their respective local currencies.
+Validation evidence
 
-Review activity should not automatically be interpreted as guest satisfaction.
+Pending
 
-The Reviews dataset does not provide individual review text or individual review ratings.
+Executive summary
+
+Pending
+
+Project documentation
+
+In progress
+
+⚠️ DATA LIMITATIONS
+
+Advertised prices will be analysed within their respective local currencies.
+
+Review activity will not automatically be interpreted as guest satisfaction.
+
+The Reviews dataset does not contain individual review text or individual review ratings.
 
 The analysis will not make unsupported conclusions about bookings, occupancy, revenue or profitability.
 
-Missing or incomplete information may affect some comparisons.
-
-10. Repository Structure
-
-The project files will be organised as follows:
+📁 REPOSITORY STRUCTURE
 
 airbnb-market-intelligence-dashboard/
 │
 ├── README.md
 │
 ├── sql/
-│   └── SQL preparation and analysis scripts
 │
 ├── powerbi/
-│   └── Power BI dashboard
 │
 ├── docs/
-│   ├── data_quality_assessment.md
-│   ├── transformation_log.md
-│   ├── kpi_definitions.md
-│   ├── validation_evidence.md
-│   ├── executive_summary.md
-│   └── contribution_and_feedback.md
 │
 └── screenshots/
-    └── Dashboard screenshots
 
-11. Project Status
+🚀 PROJECT STATUS
 
-Status: In Progress
+IN PROGRESS
 
-Data preparation, quality assessment, analytical modelling and dashboard development are being completed as part of the AnalystLab Africa Experience Lab Internship Programme.
+Data preparation, analytical modelling, validation and dashboard development are being completed as part of the AnalystLab Africa Experience Lab Internship Programme.
 
-Final findings, recommendations and validation evidence will be added as the project progresses.
+Final findings, recommendations and supporting evidence will be added as the project progresses.
+
+👨‍💻 PROJECT INFORMATION
 
 Programme: AnalystLab Africa Experience Lab Internship Programme
 Assignment: Week 1 – Airbnb Market Performance and Listing Insights Dashboard
